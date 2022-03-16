@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap');
+
+/*reset code starts */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+}
+/*reset code ends */
+
+
+/* container start */
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+/* container end */
+
+
+/* card style start*/
+.card{
+    width: 33rem;
+    height: 22rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: rgb(2, 160, 245);
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+}
+.card:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem #222, -0.2rem 0 0.2rem #222;
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+/* card style end*/
+
+
+/* form field style start */
+.form-field{
+    margin-bottom: 1rem;
+}
+input{
+    border: none;
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 50%;
+    color: #fff;
+    background-color: rgb(5, 102, 206);
+}
+
+/* button style start */
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0.8rem 1rem 0;
+}
+.check-btn{
+    border: none;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: royalblue;
+}
+.check-btn:hover{
+    background-color: #fff;
+    font-weight: bold;
+}
+/* button style end */
+
+.result-text{
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    text-align: center;
+}
+.large-text{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color: yellow;
+}
